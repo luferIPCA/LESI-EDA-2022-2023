@@ -12,6 +12,6 @@ ou então
 
 ou então
 
-5) Fazer cópia integrar de repositótio girt remoto
+5) Fazer cópia integral de repositótio git remoto
 	
 	git clone https://github.com/luferIPCA/LEDJD-EDA-2022-2023.git
