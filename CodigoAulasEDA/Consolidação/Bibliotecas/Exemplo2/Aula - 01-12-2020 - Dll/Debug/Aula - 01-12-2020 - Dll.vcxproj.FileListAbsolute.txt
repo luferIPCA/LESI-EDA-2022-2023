@@ -1,0 +1,2 @@
+C:\Temp\LP1\Codigo\Aulas\Aula - 01-12-2020 - Dll\Debug\MyDll.dll
+C:\Temp\LP1\Codigo\Aulas\Aula - 01-12-2020 - Dll\Debug\MyDll.pdb
