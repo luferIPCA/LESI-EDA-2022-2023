@@ -1,7 +1,6 @@
 /*
 * author: lufer
 * email: lufer@ipca.pt
-* date: 06.03.2022
 * desc: Apontadores
 */
 
