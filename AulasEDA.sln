@@ -17,7 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bibliotecas", "Bibliotecas"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 2 - Apontadores", "CodigoAulasEDA\Aula 2 - Apontadores\Aula 2 - Apontadores.vcxproj", "{CF156713-F9E3-4626-AB21-2CE7113B489E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FolhaExerc2", "CodigoAulasEDA\FolhaExerc2\FolhaExerc2.vcxproj", "{A8045EDB-C677-412E-BDED-9AA87D95A13A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FolhaExerc1", "..\EDA-EDJD\CodigoAulasEDA\FolhaExerc1\FolhaExerc1.vcxproj", "{A8045EDB-C677-412E-BDED-9AA87D95A13A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Folhas de Exercicios", "Folhas de Exercicios", "{015AB8F9-C3F2-4308-B94A-0C2D6CF58D5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 3 - Arrays e Apontadores", "..\EDA-EDJD\CodigoAulasEDA\Aula 3 - Arrays e Apontadores\Aula 3 - Arrays e Apontadores.vcxproj", "{20BC7844-7BDA-4C17-AC02-CB1463369BD0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 2 - Apontadores II", "CodigoAulasEDA\Aula 2 - Apontaddores II\Aula 2 - Apontaddores II.vcxproj", "{6447D9AB-082F-405D-A150-BFBBDBB9A2EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,22 @@ Global
 		{A8045EDB-C677-412E-BDED-9AA87D95A13A}.Release|x64.Build.0 = Release|x64
 		{A8045EDB-C677-412E-BDED-9AA87D95A13A}.Release|x86.ActiveCfg = Release|Win32
 		{A8045EDB-C677-412E-BDED-9AA87D95A13A}.Release|x86.Build.0 = Release|Win32
+		{20BC7844-7BDA-4C17-AC02-CB1463369BD0}.Debug|x64.ActiveCfg = Debug|x64
+		{20BC7844-7BDA-4C17-AC02-CB1463369BD0}.Debug|x64.Build.0 = Debug|x64
+		{20BC7844-7BDA-4C17-AC02-CB1463369BD0}.Debug|x86.ActiveCfg = Debug|Win32
+		{20BC7844-7BDA-4C17-AC02-CB1463369BD0}.Debug|x86.Build.0 = Debug|Win32
+		{20BC7844-7BDA-4C17-AC02-CB1463369BD0}.Release|x64.ActiveCfg = Release|x64
+		{20BC7844-7BDA-4C17-AC02-CB1463369BD0}.Release|x64.Build.0 = Release|x64
+		{20BC7844-7BDA-4C17-AC02-CB1463369BD0}.Release|x86.ActiveCfg = Release|Win32
+		{20BC7844-7BDA-4C17-AC02-CB1463369BD0}.Release|x86.Build.0 = Release|Win32
+		{6447D9AB-082F-405D-A150-BFBBDBB9A2EB}.Debug|x64.ActiveCfg = Debug|x64
+		{6447D9AB-082F-405D-A150-BFBBDBB9A2EB}.Debug|x64.Build.0 = Debug|x64
+		{6447D9AB-082F-405D-A150-BFBBDBB9A2EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{6447D9AB-082F-405D-A150-BFBBDBB9A2EB}.Debug|x86.Build.0 = Debug|Win32
+		{6447D9AB-082F-405D-A150-BFBBDBB9A2EB}.Release|x64.ActiveCfg = Release|x64
+		{6447D9AB-082F-405D-A150-BFBBDBB9A2EB}.Release|x64.Build.0 = Release|x64
+		{6447D9AB-082F-405D-A150-BFBBDBB9A2EB}.Release|x86.ActiveCfg = Release|Win32
+		{6447D9AB-082F-405D-A150-BFBBDBB9A2EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +106,7 @@ Global
 		{B980A786-E460-4C20-97D0-8990FB149098} = {E4F1AA42-6117-4E0F-97B3-F3F92233C51F}
 		{DE3DA76E-E012-467D-BCA1-910D9A27E33C} = {E4F1AA42-6117-4E0F-97B3-F3F92233C51F}
 		{E4F1AA42-6117-4E0F-97B3-F3F92233C51F} = {29BD41BE-F956-4F1B-AE87-F07CE511FEEA}
+		{A8045EDB-C677-412E-BDED-9AA87D95A13A} = {015AB8F9-C3F2-4308-B94A-0C2D6CF58D5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86B63E5A-D18B-41CB-9EA8-9BFBD20EB25D}
