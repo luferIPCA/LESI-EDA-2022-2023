@@ -1,0 +1,3 @@
+C:\Temp\LP1\Codigo\Aulas\Aula - 01-12-2020 - Usa DLL\Debug\Aula - 01-12-2020 - Usa DLL.exe
+C:\Temp\LP1\Codigo\Aulas\Aula - 01-12-2020 - Usa DLL\Debug\Aula - 01-12-2020 - Usa DLL.pdb
+C:\Temp\Temp 20-21\LP1\Codigo\Aulas\Aula - 01-12-2020 - Usa DLL\Debug\Aula - 01-12-2020 - Usa DLL.exe

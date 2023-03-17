@@ -1,0 +1,6 @@
+﻿  SourceII.c
+  SourceIII.c
+  Generating Code...
+C:\Temp\TodasAulas\Calculadora\SourceIII.c(14): warning C4716: 'main3': must return a value
+C:\Temp\TodasAulas\Calculadora\SourceII.c(32): warning C4716: 'main2': must return a value
+  Calculadora.vcxproj -> C:\Temp\TodasAulas\Debug\Calculadora.exe

@@ -1,0 +1,11 @@
+﻿  Source.c
+     Creating library Debug\MyDll.lib and object Debug\MyDll.exp
+  Aula - 01-12-2020 - Dll.vcxproj -> C:\Temp\Temp 20-21\LP1\Codigo\Aulas\Aula - 01-12-2020 - Dll\Debug\MyDll.dll
+  C:\Temp\Temp 20-21\LP1\Codigo\Aulas\Aula - 01-12-2020 - Dll\\funcoes.h
+  O sistema não conseguiu localizar o caminho especificado.
+          0 file(s) copied.
+  O sistema não conseguiu localizar o caminho especificado.
+          0 file(s) copied.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: The command "copy "C:\Temp\Temp 20-21\LP1\Codigo\Aulas\Aula - 01-12-2020 - Dll\\*.h" c:\temp\Libs\dll\
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: copy "C:\Temp\Temp 20-21\LP1\Codigo\Aulas\Aula - 01-12-2020 - Dll\Debug\MyDll.dll" c:\temp\Libs\dll\
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :VCEnd" exited with code 1.
