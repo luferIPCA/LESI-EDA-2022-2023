@@ -1,0 +1,10 @@
+﻿  Funcoes.c
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 2 - Apontaddores II\Funcoes.c(54,24): warning C4013: 'malloc' undefined; assuming extern returning int
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 2 - Apontaddores II\Funcoes.c(54,40): warning C4312: 'type cast': conversion from 'int' to 'Pessoa *' of greater size
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 2 - Apontaddores II\Funcoes.c(56,8): warning C4013: 'strcpy' undefined; assuming extern returning int
+  GerePessoas.c
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 2 - Apontaddores II\GerePessoas.c(18,8): warning C4013: 'strcpy' undefined; assuming extern returning int
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 2 - Apontaddores II\GerePessoas.c(24,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 2 - Apontaddores II\GerePessoas.c(24,9): message : consider using '%zd' in the format string
+  Generating Code...
+  Aula 2 - Apontaddores II.vcxproj -> D:\Temp\LESI-EDA-2022-2023\x64\Debug\Aula 2 - Apontadores II.exe

@@ -32,7 +32,7 @@ int nextQueue();
 bool isQueueEmpty();
 
 //graphs functions
-void breadthFirstSearch(Vertice *gr[], int vertice);
+void breadthFirstSearch(int adjMatrix[][MAX], Vertice *gr[], int vertice);
 Best bestPath(int adjMatrix[MAX][MAX], int n, int v);
 
 //auxiliar

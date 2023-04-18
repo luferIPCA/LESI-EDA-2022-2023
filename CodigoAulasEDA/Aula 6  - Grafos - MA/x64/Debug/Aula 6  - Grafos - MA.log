@@ -1,0 +1,8 @@
+﻿  Graphs.c
+  MAQueue.c
+  MAStack.c
+  main.c
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 6  - Grafos - MA\main.c(67,8): warning C4013: 'system' undefined; assuming extern returning int
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 6  - Grafos - MA\main.c(17,6): warning C4101: 'i': unreferenced local variable
+  Generating Code...
+  Aula 6  - Grafos - MA.vcxproj -> D:\Temp\LESI-EDA-2022-2023\x64\Debug\Aula 6  - Grafos - MA.exe

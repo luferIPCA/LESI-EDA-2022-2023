@@ -1,0 +1,17 @@
+﻿  Funcs.c
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\Funcs.c(44,37): warning C4013: 'malloc' undefined; assuming extern returning int
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\Funcs.c(44,56): warning C4312: 'type cast': conversion from 'int' to 'NodoLista *' of greater size
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\Funcs.c(58,15): warning C4133: '=': incompatible types - from 'Nodo *' to 'NodoLista *'
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\Funcs.c(144,7): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\Funcs.c(161,29): warning C4047: 'return': 'NodoLista *' differs in levels of indirection from 'int'
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\Funcs.c(165,30): warning C4047: 'function': 'NodoLista *' differs in levels of indirection from 'Nodo **'
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\Funcs.c(165,26): warning C4024: 'InsereNodoLista': different types for formal and actual parameter 2
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\Funcs.c(160,7): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\Funcs.c(177,7): warning C4013: 'free' undefined; assuming extern returning int
+  GereNodos.c
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\GereNodos.c(88,13): error C2374: 'inicio': redefinition; multiple initialization
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\GereNodos.c(16): message : see declaration of 'inicio'
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\GereNodos.c(90,37): warning C4133: 'function': incompatible types - from 'Nodo *' to 'NodoLista *'
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\GereNodos.c(97,13): error C2371: 'aux': redefinition; different basic types
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 4 - Listas Ligadas Simples II\GereNodos.c(39): message : see declaration of 'aux'
+  Generating Code...

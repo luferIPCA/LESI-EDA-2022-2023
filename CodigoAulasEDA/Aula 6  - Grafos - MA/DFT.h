@@ -29,5 +29,5 @@ int pop();
 int peek();
 bool isStackEmpty();
 //graph
-void depthFirstSearch(Vertice *gr[]);
+void depthFirstSearch(int adjMatrix[][MAX], Vertice *gr[]);
 #endif // !DFS

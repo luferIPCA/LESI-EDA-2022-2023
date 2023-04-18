@@ -49,7 +49,7 @@ bool isStackEmpty() {
 DFS
 Percorre o grafo em profundidade
 */
-void depthFirstSearch(Vertice *lstVertices[]) {
+void depthFirstSearch(int adjMatrix[][MAX],Vertice *lstVertices[]) {
    int i; 
    int uv; //unvisitedVertice
 
@@ -61,8 +61,8 @@ void depthFirstSearch(Vertice *lstVertices[]) {
    push(0); 
    while(!isStackEmpty()) { 	  
 	  //encontra vertice não visitado adjacente ao que está no topo da stack      
-	  uv = GetVertAdjunNaoVisitado(lstVertices,peek());
-      //se não tem adjacentes 
+	  uv = GetVertAdjunNaoVisitado(adjMatrix,lstVertices,peek());
+      //se não tem adjacentes, retira da stack 
       if(uv == -1) { 
          pop(); 
       }else { 
@@ -75,7 +75,7 @@ void depthFirstSearch(Vertice *lstVertices[]) {
       } 
    } 
  
-   //stack está vazia, repõe o estado de cada vertice         
+   //no fim a stack está vazia, repõe o estado de cada vertice         
    for(i = 0;i < vertCount;i++) { 
       lstVertices[i]->visitado = false; 
    }         

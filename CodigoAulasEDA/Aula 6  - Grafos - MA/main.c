@@ -18,6 +18,11 @@ int main() {
 	bool aux;
 	vertCount = 0;
 
+	//
+	//Matriz de adjacências
+	int adjMatrix[MAX][MAX];
+	//
+
 	aux = InitAdj(adjMatrix, MAX);
     
 	//Constroi grafo
@@ -35,22 +40,24 @@ int main() {
 	//AddEdge(2, 4, 7);    // B - D 
 	//AddEdge(3, 4, 1);    // C - D 
 
-	AddEdgeWeight(0, 1, 8);    // S - A 
-	AddEdgeWeight(0, 2, 12);    // S - B 
-	AddEdgeWeight(0, 3, 9);    // S - C 
-	AddEdgeWeight(1, 4, 3);    // A - D 
-	AddEdgeWeight(2, 4, 7);    // B - D 
-	AddEdgeWeight(3, 4, 1);    // C - D 
-	AddEdgeWeight(3, 5, 2);    // C - E 
+	//Define Grafo com MA
+
+	AddEdgeWeight(adjMatrix,0, 1, 8);    // S - A 
+	AddEdgeWeight(adjMatrix, 0, 2, 12);    // S - B 
+	AddEdgeWeight(adjMatrix, 0, 3, 9);    // S - C 
+	AddEdgeWeight(adjMatrix, 1, 4, 3);    // A - D 
+	AddEdgeWeight(adjMatrix, 2, 4, 7);    // B - D 
+	AddEdgeWeight(adjMatrix, 3, 4, 1);    // C - D 
+	AddEdgeWeight(adjMatrix, 3, 5, 2);    // C - E 
    
 	//Mostra um determinado vertice
 	ProcessaVertice(lstVertices,3);
 
 	printf("\nTravessia Depth First:\n");    
-	depthFirstSearch(lstVertices);
+	depthFirstSearch(adjMatrix, lstVertices);
 
 	printf("\nTravessia Breadth First:\n");
-	breadthFirstSearch(lstVertices, 0);  
+	breadthFirstSearch(adjMatrix, lstVertices, 0);
 
 	Best b = bestPath(adjMatrix, MAX, 0);
 	

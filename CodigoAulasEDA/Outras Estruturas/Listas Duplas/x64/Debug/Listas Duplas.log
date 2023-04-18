@@ -1,0 +1,16 @@
+﻿  Duplas.c
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Duplas.h(72,2): warning C4091: 'typedef ': ignored on left of 'NodoSimples' when no variable is declared
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Duplas.c(29,32): warning C4013: 'malloc' undefined; assuming extern returning int
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Duplas.c(29,46): warning C4312: 'type cast': conversion from 'int' to 'NodoPtr' of greater size
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Duplas.c(199,22): warning C4028: formal parameter 1 different from declaration
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Duplas.c(214,8): warning C4013: 'free' undefined; assuming extern returning int
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Duplas.c(404,35): warning C4312: 'type cast': conversion from 'int' to 'Nodo *' of greater size
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Duplas.c(409,36): warning C4312: 'type cast': conversion from 'int' to 'Nodo *' of greater size
+  Main.c
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Duplas.h(72,2): warning C4091: 'typedef ': ignored on left of 'NodoSimples' when no variable is declared
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Main.c(38,18): warning C4013: 'Save' undefined; assuming extern returning int
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Main.c(60,18): warning C4047: 'function': 'NodoPtr *' differs in levels of indirection from 'NodoPtr'
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Main.c(60,15): warning C4024: 'Remove': different types for formal and actual parameter 1
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Outras Estruturas\Listas Duplas\Main.c(86,8): warning C4013: 'getche' undefined; assuming extern returning int
+  Generating Code...
+  Listas Duplas.vcxproj -> D:\Temp\LESI-EDA-2022-2023\x64\Debug\Aula 4 - Listas Ligadas Duplas.exe

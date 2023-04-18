@@ -46,7 +46,7 @@ bool isQueueEmpty() {
 /*
 Travessia BSF
 */
-void breadthFirstSearch(Vertice *lstVertices[], int v) {
+void breadthFirstSearch(int adjMatrix[][MAX],Vertice *lstVertices[], int v) {
    int i; 
    int uv; // unvisited Vertice
 
@@ -63,7 +63,7 @@ void breadthFirstSearch(Vertice *lstVertices[], int v) {
       int tempVertex = nextQueue();    
  
       //para cada adjacente não visitado
-      while((uv = GetVertAdjunNaoVisitado(lstVertices,tempVertex)) != -1) 
+      while((uv = GetVertAdjunNaoVisitado(adjMatrix, lstVertices,tempVertex)) != -1)
 	  {
 		//marca
          lstVertices[uv]->visitado = true; 
@@ -75,7 +75,7 @@ void breadthFirstSearch(Vertice *lstVertices[], int v) {
    
    }    
  
-   //queue está vazia, repõe o estado de cada vertice         
+   //no fim a queue está vazia, repõe o estado de cada vertice         
    for(i = 0;i<vertCount;i++) { 
       lstVertices[i]->visitado = false; 
    }     

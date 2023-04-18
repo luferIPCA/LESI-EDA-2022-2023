@@ -1,0 +1,6 @@
+﻿  Arrays.c
+  Calculos.c
+  Programa.c
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 1\Programa.c(21,8): warning C4101: 'y': unreferenced local variable
+  Generating Code...
+  Aula1.vcxproj -> D:\Temp\LESI-EDA-2022-2023\x64\Debug\Aula1.exe
