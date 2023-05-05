@@ -5,8 +5,6 @@
 
 #define N 20
 
-
-
 #pragma warning (disable: 4996)
 /**
  * Estrutura de uma Adjacência.

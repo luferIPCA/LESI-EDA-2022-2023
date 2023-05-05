@@ -30,11 +30,12 @@ Vertice* CriaGrafo() {
  * @author lufer
  */
 Vertice* CriaVertice(char* cidade, int cod) {
-	Vertice* novo = (Vertice*)malloc(sizeof(Vertice));
+	Vertice* novo = (Vertice*)calloc(1, sizeof(Vertice));
 	if (novo == NULL) return NULL;
 	novo->cod = cod;
 	strcpy(novo->cidade, cidade);
-	novo->next = NULL;
+	novo->next = NULL;			//com "calloc" isto é dispensável
+	novo->adjacentes = NULL;	//com "calloc" isto é dispensável
 	return novo;
 }
 
