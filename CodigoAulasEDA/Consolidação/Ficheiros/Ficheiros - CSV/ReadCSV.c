@@ -50,7 +50,7 @@ int main() {
             continue;
         }
 
-        token = strtok(row, ";");   //separador ","
+        token = strtok(row, ",");   //separador ","
         
         int t = 0;
         while (token != NULL)

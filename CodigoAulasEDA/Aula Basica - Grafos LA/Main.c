@@ -14,7 +14,7 @@
 int main(int argc, char* argv[]) {
 	setlocale(LC_ALL, "Portuguese");	//para escrever caracteres portugueses
 
-	static int tot = 0;
+	static int tot = 0;					//total de vertices
 
 #pragma region RECURSIVIDADE
 
@@ -72,6 +72,7 @@ int main(int argc, char* argv[]) {
 	//Adjacencias
 	//Criar ligação "Braga" a "Porto"
 	graf = InsereAdjacenteVertice(graf, "Braga", "Porto", 35, &res);
+	//graf = InsereAdjacenteVertice(graf, "Porto", "Braga", 35, &res);
 	graf = InsereAdjacenteVertice(graf, "Braga", "Famalicão", 15, &res);
 	//graf = InsereAdjacenteVertice(graf, tot, "Braga", "Porto", 35, &res);
 

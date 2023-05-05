@@ -124,10 +124,12 @@ JogosLista* InsereJogoOrdenado(JogosLista* h, Jogo* novo) {
 	{
 		JogosLista* aux = h;
 		JogosLista* auxAnt = NULL;
+		//Procura inde inserir...
 		while (aux && aux->jogo.cod < novo->cod) {
 			auxAnt = aux;
 			aux = aux->next;
 		}
+		//Insere
 		if (auxAnt == NULL) {
 			n->next = h;
 			h = n;

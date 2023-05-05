@@ -1,3 +1,11 @@
+/*****************************************************************//**
+ * @file   Grafo.h
+ * @brief  
+ * 
+ * 
+ * @author lufer
+ * @date   April 2023
+ *********************************************************************/
 #pragma once
 
 #include <stdio.h>
@@ -33,6 +41,7 @@ Vertice* CriaVertice(char* cidade, int tot);
 void MostraGrafo(Vertice* g);
 int ProcuraCodVertice(Vertice* g, char* cidade);
 Vertice* ProcuraVertice(Vertice* g, char* cidade);
+//...
 
 #pragma endregion
 
@@ -46,6 +55,7 @@ Adj* CriaAdj(int cod, float peso);
 Adj* InsereAdj(Adj* h, Adj* novo, bool* res);
 bool ProcuraAdj(Adj* h, int cod);
 void MostraAdjacencias(Adj* h);
+//...
 
 #pragma endregion
 #pragma endregion

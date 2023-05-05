@@ -1,0 +1,7 @@
+﻿  Grafo.c
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 7 - Grafos LA\Grafo.c(330,6): warning C4101: 'j': unreferenced local variable
+  Main.c
+  Generating Code...
+D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Aula 7 - Grafos LA\Grafo.c(346): warning C4715: 'DepthFirstSearchRec': not all control paths return a value
+  LINK : D:\Temp\LESI-EDA-2022-2023\x64\Debug\Aula 7 - Grafos LA.exe not found or not built by the last incremental link; performing full link
+  Aula 7 - Grafos LA.vcxproj -> D:\Temp\LESI-EDA-2022-2023\x64\Debug\Aula 7 - Grafos LA.exe

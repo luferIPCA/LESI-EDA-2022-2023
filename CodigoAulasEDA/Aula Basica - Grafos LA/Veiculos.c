@@ -17,6 +17,16 @@ Veiculo* NovoVei(int i) {
 	n->next = NULL;
 }
 
+/**
+ * @brief .
+ * 
+ * @param h
+ * @param novo
+ * @param res
+ * @return 
+ * @author lufer
+ *
+ */
 Veiculo* InsereVei(Veiculo* h, Veiculo* novo, bool *res) {
 	if (h == NULL) {
 		h = novo;

@@ -20,6 +20,7 @@
  *
  */
 Vertice* CriaGrafo() {
+	//N coisas!!!
 	return NULL;
 }
 
@@ -153,25 +154,23 @@ Adj* CriaAdj(int cod, float peso) {
  */
 Vertice* InsereAdjacenteVertice(Vertice* g, char* origem, char* dest, float peso, bool* res)
 {
-	*res = false;				//por defeito é falso
-	
+	*res = false;				//por defeito é falso	
 	if (g == NULL) return g;	//<! se grafo está vazio, ignora operação
-
 	Vertice* aux = ProcuraVertice(g, origem); // g;			//<! procura vertice origem
-	/*while (auxO && strcmp(auxO->cidade,origem)!=0) {
-		auxO = auxO->next;
-	}*/
-
+	//Vertice* aux2 = ProcuraVertice(g, dest);
 	int cod = ProcuraCodVertice(g, dest);
 	
+	//Se vertices não ´sao válidos!!!
 	if (aux == NULL || cod<0) return g;	//<! Se não encontrou vertice origem e destino, ignora operação
-
-	
+	//Não admite adjacencias repetidas!
 	if (ProcuraAdj(aux->adjacentes, cod) == true) return g; //Se já foi registado esta adjacencia, ignorar a operação
 
 	//Insere nova adjacencia no vertice "Origem"
 	Adj* novoAdj = CriaAdj(cod, peso);
 	aux->adjacentes= InsereAdj(aux->adjacentes, novoAdj, res);
+	if (res == false) {}
+	//Se for orientado
+	//return g;
 
 	//Insere caminho inverso, pois é não orientado...recursivamente!
 	return (InsereAdjacenteVertice(g, dest, origem, peso, res));

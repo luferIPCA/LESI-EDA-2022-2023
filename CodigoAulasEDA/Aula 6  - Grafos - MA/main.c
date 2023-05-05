@@ -54,16 +54,26 @@ int main() {
 	ProcessaVertice(lstVertices,3);
 
 	printf("\nTravessia Depth First:\n");    
-	depthFirstSearch(adjMatrix, lstVertices);
+	DFT(adjMatrix, lstVertices, vertCount);
+
+	printf("\nTravessia Depth First Recursiva:\n");
+	DFTRecursivo(adjMatrix, lstVertices, vertCount, 0);
+
+	// reset de vertices visitados
+	for (int i = 0; i < vertCount; i++) 
+		lstVertices[i]->visitado = false;
+
+	printf("\nPesquisa com Depth First Recursiva:\n");
+	bool existe = DepthFirstSearchRec(adjMatrix, lstVertices, vertCount, 0,4);
+	printf(" Existe Path entre %d e %d: %s\n", 0,4,(existe == true ? "Sim" : "Não"));
 
 	printf("\nTravessia Breadth First:\n");
-	breadthFirstSearch(adjMatrix, lstVertices, 0);
+	BFT(adjMatrix, lstVertices, 0);
 
-	Best b = bestPath(adjMatrix, MAX, 0);
+	Best b = BestPath(adjMatrix, MAX, 0);
 	
 	ShowAllPath(b, MAX, 0);
 
-	printf("\n");
 	system("pause");
 	return 0;
 } 

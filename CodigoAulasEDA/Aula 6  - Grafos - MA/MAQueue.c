@@ -46,10 +46,9 @@ bool isQueueEmpty() {
 /*
 Travessia BSF
 */
-void breadthFirstSearch(int adjMatrix[][MAX],Vertice *lstVertices[], int v) {
+void BFT(int adjMatrix[][MAX],Vertice *lstVertices[], int v) {
    int i; 
    int uv; // unvisited Vertice
-
 
    //marca vertice como visitado 
    lstVertices[v]->visitado = true; 
@@ -81,10 +80,17 @@ void breadthFirstSearch(int adjMatrix[][MAX],Vertice *lstVertices[], int v) {
    }     
 } 
 
-/*
-Dijkstra’s Algorithm
-*/
-Best bestPath(int adjMatrix[MAX][MAX],int n, int v) {
+/**
+ * @brief Dijkstra’s Algorithm.
+ * 
+ * @param adjMatrix
+ * @param n
+ * @param v
+ * @return 
+ * @author lufer
+ *
+ */
+Best BestPath(int adjMatrix[MAX][MAX],int n, int v) {
 
 	int cost[MAX][MAX], distance[MAX], pred[MAX];
 	int visited[MAX], count, mindistance, nextnode, i, j;
