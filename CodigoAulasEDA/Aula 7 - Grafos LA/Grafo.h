@@ -4,6 +4,7 @@
 #include <stdbool.h>
 
 #define N 20
+#define MAX 100
 
 #pragma warning (disable: 4996)
 /**
@@ -26,6 +27,7 @@ typedef struct Vertice {
 	struct Adj* adjacentes;		/*!< Lista de Adjacências */
 } Vertice;
 
+
 #pragma region GRAFO
 
 Vertice* CriaGrafo();
@@ -36,11 +38,15 @@ int ProcuraCodigoVertice(Vertice* g, char* cidade);
 Vertice* ProcuraVertice(Vertice* g, char* cidade);
 Vertice* ProcuraVerticeCod(Vertice* g, int cod);
 
+Vertice* DestroyGraph(Vertice* g);
+Adj* DestroyAdj(Adj* h);
+
 #pragma endregion
 
 #pragma region ADJACENCIAS
 
 Vertice* InsereAdjacenteVertice(Vertice* g, char* origem, char* dest, float peso, bool* res);
+Vertice* InsereAdjacenteVerticeCod(Vertice* g, int origem, int dest, float peso, bool* res);
 
 #pragma region LISTA_ADJACENCIAS
 

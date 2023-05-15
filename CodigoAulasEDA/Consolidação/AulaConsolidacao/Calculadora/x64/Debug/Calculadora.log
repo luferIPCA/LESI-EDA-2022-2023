@@ -1,11 +1,1 @@
-﻿  Funcoes.c
-  Programa.c
-D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Consolidação\AulaConsolidacao\Calculadora\Programa.c(16,14): warning C4013: 'Mult' undefined; assuming extern returning int
-  Source.c
-  SourceII.c
-  SourceIII.c
-  Generating Code...
-D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Consolidação\AulaConsolidacao\Calculadora\SourceIII.c(20): warning C4716: 'main3': must return a value
-D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Consolidação\AulaConsolidacao\Calculadora\SourceII.c(32): warning C4716: 'main2': must return a value
-D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Consolidação\AulaConsolidacao\Calculadora\Source.c(17): warning C4716: 'main1': must return a value
-  Calculadora.vcxproj -> D:\Temp\LESI-EDA-2022-2023\x64\Debug\Calculadora.exe
+﻿

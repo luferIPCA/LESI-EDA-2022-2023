@@ -22,6 +22,34 @@ Vertice* CriaGrafo() {
 	return NULL;
 }
 
+Vertice* DestroyGraph(Vertice* g) {
+	if (g==NULL) return NULL;
+	Vertice* aux=NULL;
+	while (g) {
+		if (g->next) 
+			aux = g->next;
+		g->adjacentes = DestroyAdj(g->adjacentes);
+		free(g);
+		g = aux;
+		aux = NULL;
+	}
+	return g;
+}
+
+Adj *DestroyAdj(Adj* h) {
+	if (h == NULL) return NULL;
+	Adj* aux = NULL;
+	while (h) {
+		if (h->next!=NULL)
+			aux = h->next;
+		free(h);
+		h = aux;
+		aux = NULL;
+	}
+	return h;
+}
+
+
 /**
  * @brief Cria vértice para o grafo
  * 
@@ -190,6 +218,44 @@ Vertice* InsereAdjacenteVertice(Vertice* g, char* origem, char* dest, float peso
 	//Insere nova adjacencia no vertice "Origem"
 	Adj* novoAdj = CriaAdj(cod, peso);
 	aux->adjacentes= InsereAdj(aux->adjacentes, novoAdj, res);
+	return g;
+	//Se for não orientado
+	//return (InsereAdjacenteVertice(g, dest, origem, peso, res));
+#pragma endregion
+
+}
+
+/**
+ * @brief Insere Adjacente a partir dos códigos dos vertices.
+ * 
+ * @param g
+ * @param codOrigem
+ * @param codDest
+ * @param peso
+ * @param res
+ * @return 
+ * @author lufer
+ *
+ */
+Vertice* InsereAdjacenteVerticeCod(Vertice* g, int codOrigem, int codDest, float peso, bool* res) {
+
+#pragma region Validações
+	* res = false;				//por defeito é falso
+
+	if (g == NULL) return g;	//<! se grafo está vazio, ignora operação
+
+	Vertice* o = ProcuraVerticeCod(g, codOrigem);	//<! procura vertice origem
+	Vertice* d = ProcuraVerticeCod(g, codDest);	//<! procura vertice destino
+	if (o == NULL || d == NULL) return g;		//<! Se não encontrou vertice origem e destino, ignora operação
+
+	if (ExisteAdjacentes(o->adjacentes, codDest) == true)
+		return g; //Se já foi registado esta adjacencia, ignorar a operação
+#pragma endregion
+
+#pragma region Ação
+	//Insere nova adjacencia no vertice "Origem"
+	Adj* novoAdj = CriaAdj(codDest, peso);
+	o->adjacentes = InsereAdj(o->adjacentes, novoAdj, res);
 	return g;
 	//Se for não orientado
 	//return (InsereAdjacenteVertice(g, dest, origem, peso, res));
@@ -384,3 +450,5 @@ Vertice *ResetVerticesVisitados(Vertice* g) {
 }
 
 #pragma endregion
+
+

@@ -1,5 +1,1 @@
-﻿  CalculadoraNacional.c
-D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Consolidação\Bibliotecas\Exemplo1\CalculadoraNova\CalculadoraNova\CalculadoraNacional.c(9,15): warning C4013: 'Soma1' undefined; assuming extern returning int
-CalculadoraNacional.obj : error LNK2019: unresolved external symbol Soma1 referenced in function main
-MinhaLib.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-D:\Temp\LESI-EDA-2022-2023\x64\Debug\CalculadoraNova.exe : fatal error LNK1120: 1 unresolved externals
+﻿

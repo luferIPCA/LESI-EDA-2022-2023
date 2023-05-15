@@ -73,7 +73,6 @@ int main(int argc, char* argv[]) {
 	bool existe = DepthFirstSearchRec(graf, 0, 3);
 	printf(" Existe Path entre %d e %d: %s\n", 0,3,(existe == true ? "Sim" : "Não"));
 
-
 	graf = ResetVerticesVisitados(graf);
 
 	existe = DepthFirstSearchNamesRec(graf, "Braga", "Porto");

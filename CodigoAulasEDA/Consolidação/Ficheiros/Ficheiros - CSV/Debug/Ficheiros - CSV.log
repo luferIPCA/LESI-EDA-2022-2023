@@ -1,4 +1,1 @@
-﻿  ReadCSV.c
-D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Consolidação\Ficheiros\Ficheiros - CSV\ReadCSV.c(41,13): warning C4013: 'exit' undefined; assuming extern returning int
-D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Consolidação\Ficheiros\Ficheiros - CSV\ReadCSV.c(64,32): warning C4013: 'atof' undefined; assuming extern returning int
-  Ficheiros - CSV.vcxproj -> D:\Temp\LESI-EDA-2022-2023\CodigoAulasEDA\Consolidação\Ficheiros\Ficheiros - CSV\Debug\Ficheiros - CSV.exe
+﻿
